@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textColor="@color/black"
+        android:text="BODY MASS INDEX"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:paddingTop="30px"
+        android:layout_margin="30px"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+    <EditText
+        android:id="@+id/soThuNhat"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập chiều cao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:id="@+id/soThuHai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập cân nặng"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/buttonClick"
+        android:text="TÍNH TOÁN"
+        android:layout_width="match_parent"
+        android:layout_margin="50dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <TextView
+        android:id="@+id/hienThi"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textColor="@color/red"
+        android:hint="Kết quả thực hiện"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+
+</LinearLayout>
